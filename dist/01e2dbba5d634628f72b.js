@@ -607,11 +607,11 @@ var Option = function Option(_ref) {
   }
 
   if (check === true) {
-    if (isAnswer === true) {
+    if (click === true && isAnswer === true) {
       toggle = " option option-correct";
     }
 
-    if (click === true && isAnswer === false) {
+    if (click === false && isAnswer === true) {
       toggle = "option option-incorrect";
     }
   }
@@ -37508,4 +37508,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_3__.render( /*#__PURE__*/react__WEBPACK_IMPOR
 
 /******/ })()
 ;
-//# sourceMappingURL=8a1139cb64d9ce83af1a.js.map
+//# sourceMappingURL=01e2dbba5d634628f72b.js.map
